@@ -20,9 +20,9 @@ class Motor
 		uint8_t pwmCh;
 	
 	public:
-		Motor(pinStruct_t& motorPin1,
-					pinStruct_t& motorPin2,
-					pinStruct_t& pwmPin,
+		Motor(pinStruct_t motorPin1,
+					pinStruct_t motorPin2,
+					pinStruct_t pwmPin,
 				  TIM_TypeDef* TIMx,
 				  uint8_t gpioAFSelTIMx,
 				  uint8_t pwmChannel);
