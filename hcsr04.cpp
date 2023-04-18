@@ -1,6 +1,6 @@
 #include "hcsr04.h"
 
-void HCSR04_TrigPinPWMInit(pinStruct_t& trigPin,
+void HCSR04_TrigPinPWMInit(pinStruct_t trigPin,
 													 TIM_TypeDef* TIMx,
 													 uint8_t gpioAFSelTIMx,
 													 uint8_t pwmChannel)
