@@ -3,7 +3,7 @@
 
 #include "pinmap.h"
 
-extern void HCSR04_TrigPinPWMInit(pinStruct_t& trigPin,
+extern void HCSR04_TrigPinPWMInit(pinStruct_t trigPin,
 																  TIM_TypeDef* TIMx,
 																  uint8_t gpioAFSelTIMx,
 																  uint8_t pwmChannel);
@@ -16,7 +16,7 @@ class HCSR04
 		uint32_t distanceCM;
 	
 	public:
-			HCSR04(pinStruct_t& echoPin,
+			HCSR04(pinStruct_t echoPin,
 						 TIM_TypeDef* TIMx,
 						 uint8_t gpioAFSelTIMx);
 	
