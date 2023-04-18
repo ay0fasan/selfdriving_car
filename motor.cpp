@@ -1,8 +1,8 @@
 #include "motor.h"
 
-Motor::Motor(pinStruct_t& motorPin1,
-						 pinStruct_t& motorPin2,
-						 pinStruct_t& pwmPin,
+Motor::Motor(pinStruct_t motorPin1,
+						 pinStruct_t motorPin2,
+						 pinStruct_t pwmPin,
 						 TIM_TypeDef* TIMx,
 						 uint8_t gpioAFSelTIMx,
 						 uint8_t pwmChannel)
