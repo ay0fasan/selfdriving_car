@@ -1,4 +1,4 @@
-#include "main.h"
+#include "motion_control.h"
 
 int main(void)
 {
